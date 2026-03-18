@@ -31,8 +31,8 @@ Expected columns in the source TSV:
 ## Example run
 
 ```powershell
-cd C:\Users\Mustafa\Documents\Playground\amazon_alexa_medallion
-spark-submit run_pipeline.py --input "C:\Users\Mustafa\Downloads\amazon_alexa.tsv"
+cd C:\Users\Documents\Playground\amazon_alexa_medallion
+spark-submit run_pipeline.py --input "C:\Users\Downloads\amazon_alexa.tsv"
 ```
 
 To override the Hive database or warehouse path:
@@ -41,7 +41,7 @@ To override the Hive database or warehouse path:
 spark-submit run_pipeline.py `
   --input "C:\Users\Mustafa\Downloads\amazon_alexa.tsv" `
   --database amazon_alexa `
-  --warehouse-dir "C:\Users\Mustafa\Documents\Playground\amazon_alexa_medallion\warehouse"
+  --warehouse-dir "C:\Users\Documents\Playground\amazon_alexa_medallion\warehouse"
 ```
 
 ## Hive tables created
