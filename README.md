@@ -11,7 +11,7 @@ This project builds a simple medallion ETL pipeline on top of the `amazon_alexa.
 ## Project layout
 
 - `src/amazon_alexa_medallion/config.py`: shared table names and defaults
-- `src/amazon_alexa_medallion/spark_utils.py`: Spark session creation with Hive support
+- `src/amazon_alexa_medallion/spark_utils.py`: Spark session creation 
 - `src/amazon_alexa_medallion/jobs/bronze.py`: raw ingestion job
 - `src/amazon_alexa_medallion/jobs/silver.py`: cleaning and conformance job
 - `src/amazon_alexa_medallion/jobs/gold.py`: aggregate job
